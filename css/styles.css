@@ -4,3 +4,7 @@ h1 {
 h2 {
   background-color: green;
 }
+
+.matches {
+  display: none;
+}
