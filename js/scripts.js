@@ -1,20 +1,20 @@
 $(document).ready(function() {
   ("#user-data").submit(function(event) {
     event.preventDefault();
-    var hats = $('#form-hats').is(":checked");
-    var poetInput = $("#form-poet").is(":checked");
-    var litpref = $('#form-cats input:radio:checked').val();
+    var javaInput = $('#form-java').is(":checked");
+    var phpInput = $("#form-php").is(":checked");
+    var rubyInput = $('#form-ruby input:radio:checked').val();
     $(".matches").hide();
 
-if (hats){
+if (java){
  $("#shakespear").fadeIn();
-} else if (poetInput === false) {
+} else if (phpInput === false) {
  $("#dickens").fadeIn();
-} else if (litpref === "classic") {
- $("#lewis").show();
-} else {
+} else if (rubyInput === "classic") {
  $("#emily").fadeIn();
-}
+} else (
+  <p>Start with ANY language and go from there.<p>
+)
 
 
  });
