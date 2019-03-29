@@ -24,7 +24,9 @@ _<a href="https://github.com/H-Len/track-selecter.git">Link to track selecter</a
 
 ## Known Bugs
 
-_results concatanate if page is not refreshed. need to edit so that results are not combined on the page_
+_results continue to appear on page unless either all results have appeared or the page is refreshed. To work around this until the bugs are fixed, a "Refresh" button is present next to the "Submit" button._
+
+_All possible results flash on page as it loading_
 
 ## Support and contact details
 
