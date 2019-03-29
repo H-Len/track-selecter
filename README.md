@@ -1,20 +1,3 @@
-<!-- README.md *Content*
-READMEs vary widely from one repository to the next. Epicodus recommends including as a minimum the following sections:
-
-Application name
-Names of contributors
-Description of the project's purpose
-Complete setup/installation instructions
-License information with a copyright and date
-Additional sections to consider:
-
-Technologies used
-Known bugs
-Contact information
-Support or contribution instructions
-
-Outline of README sections: -->
-
 # _track-selecter_
 
 #### _This application will help a prospective Epicodus student decide which language track is right for them to start with programming, 2019_
@@ -23,7 +6,7 @@ Outline of README sections: -->
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application is available to help individuals thinking about pursuing coding the ability to determine which language track might fit best for them and their interests. The survey will gather information from the user and return the most likely fit for them based on preference, aspirations of each individual, and future goals. track-selecter combines the data it receives about how the user aims to work with the languages and what environment he/she hopes to work in to help choose the language track._
 
 ## Setup/Installation Requirements
 
@@ -41,18 +24,18 @@ _<a href="https://github.com/H-Len/track-selecter.git">Link to track selecter</a
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs at this time_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you run into any bugs in this code, or have a suggestion to make this program more helpful, please let me know._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_The languages used to create this app are HTML, CSS, JavaScript, and jQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Open Source Licensing for this app.*
 
 Copyright (c) 2019 **_Hannah_**
