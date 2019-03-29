@@ -10,13 +10,13 @@ _This application is available to help individuals thinking about pursuing codin
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open track-selecter_
+* _fill in preferences_
+* _to the best of your knowledge_
+* _be honest_
+* _be open_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_This application benefits from a user being honest. If you don't want to work in a large corporation, don't check a box that says you do._
 
 ## Link to GitHub Pages
 
