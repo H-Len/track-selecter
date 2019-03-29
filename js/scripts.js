@@ -7,14 +7,14 @@ $(document).ready(function() {
     $(".matches").hide();
 
 if (java){
- $("#shakespear").fadeIn();
+ $("#javaSee").fadeIn();
 } else if (phpInput === false) {
- $("#dickens").fadeIn();
+ $(phpSee).slideIn();
 } else if (rubyInput === "classic") {
- $("#emily").fadeIn();
+ $("#rubySee").fadeIn();
 } else (
   <p>Start with ANY language offered and go from there.<p>
-)
+);
 
 
  });
