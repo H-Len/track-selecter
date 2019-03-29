@@ -37,7 +37,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Link to GitHub Pages
 
-_<a href="https://github.com/H-Len/portfolio-webpage.git">Link to track selecter</a>_
+_<a href="https://github.com/H-Len/track-selecter.git">Link to track selecter</a>_
 
 ## Known Bugs
 
