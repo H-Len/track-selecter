@@ -16,8 +16,8 @@
   <body>
     <div class="jumbotron">
       <div class="container">
-        <h1>Find the track for you!"</h1>
-        <h3>Just a few quick questions and your likely match will be suggested.</h3>
+        <h1>Find the track for you!</h1>
+        <h3>Just a few quick questions and your likely match will be presented.</h3>
 <!--
           <p>First, please introduce yourself so I know who I'm making the suggestion for.</p>
           <label for="form-nameInput">The name</label>
@@ -76,11 +76,10 @@
                     </div>
                   </div>
                   <button type="submit" class="btn btn-primary">Submit</button>
+                  <button value="Refresh Page" onClick="window.location.reload()">Refresh</button>
           </form>
         </div>
-          <h2 id="result"></h2>
-            <h1 class="matches">Your matching track is:</h1>
-
+            <h2 id="result"></h2>
             <div id="javaSee" class="matches">
               <img src="img/java.jpeg" alt="Java language brand">
             </div>
@@ -93,8 +92,6 @@
             <div id="anyLang" class="matches">
               <img src="img/anyLang.jpeg" alt="Image with many different programming languages listed">
             </div>
-
-
     </div>
   </body>
 </html>
