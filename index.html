@@ -10,63 +10,78 @@
     <script src="js/scripts.js" type="text/javascript"></script>
 
 
+
     <title>track-suggester</title>
   </head>
   <body>
     <div class="jumbotron">
       <div class="container">
         <h1>Find the track for you!"</h1>
-          <h2>Just a few quick questions and your likely match will be suggested.<h3>
+        <h2>Just a few quick questions and your likely match will be suggested.<h3>
 
-              <p>First, please introduce yourself so I know who I'm making the suggestion for.</p>
-                <label for="form-nameInput">The name:</label>
-                <input type="text" class="form-control" id="form-yourName" placeholder="What is the name of the person for whom I'll be making the suggestion?">
+          <p>First, please introduce yourself so I know who I'm making the suggestion for.</p>
+          <label for="form-nameInput">The name:</label>
+          <input type="text" class="form-control" id="form-yourName" placeholder="What is the name of the person for whom I'll be making the suggestion?">
 
-                <form id="langTracks">
-                  <div id="gate-keeper" class="modal" tabindex="-1" role="dialog">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title">Please verify you live in Portland or Seattle</h5>
-                          </div>
-                          <div class="modal-body">
+          <form id="langTracks">
+            <div id="gate-keeper" class="modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Please verify you will be living in a city where the language tracks are offered.</h5>
+                  </div>
+                  <div class="modal-body">
 
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="location">
-                              <label class="form-check-label" for="exampleCheck1">I live in a city near where Epicodus is located and can attend class in person, daily.</label>
-                            </div>
-
-                          </div>
-                          <div class="modal-footer">
-                            <button id="locate-submit /*age-submit*/" type="button" class="btn btn-primary">Verify location</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row justify-content-md-center">
-                      <form id="user-data">
-                        <div class="col-md-6">
-                          <h1>Find your fit for a language track!</h1>
-                          <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="form-hats">
-                            <label class="form-check-label" for="exampleCheck1">Do you like funny hats?</label>
-                          </div>
-
-                          <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="form-poet">
-                            <label class="form-check-label" for="exampleCheck1">Do you consider your life a long string of events that relate to the profession of a Poet?</label>
-                          </div>
-                          <div class="form-group" id="form-cats">
-                            <label class="radio-inline"><input type="radio" name="optradio" value="classic" checked> Classic?</label>
-                            <label class="radio-inline"><input type="radio" name="optradio" value="romantic"> Romantic?</label>
-                            <label class="radio-inline"><input type="radio" name="optradio" value="cats"> Cats?</label>
-                          </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="age-varification">
+                      <label class="form-check-label" for="exampleCheck1">I will be able to attend class in person.</label>
                     </div>
 
-              <button type="submit" class="btn btn-primary">Calculate</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button id="age-submit" type="button" class="btn btn-primary">Verify Age</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <form id="user-data">
+                <div class="col-md-6">
+                  <h1>Find your Celebrity match today!</h1>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="form-hats">
+                    <label class="form-check-label" for="exampleCheck1">Do you like funny hats?</label>
+                  </div>
+
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="form-poet">
+                    <label class="form-check-label" for="exampleCheck1">Do you consider your life a long string of events that relate to the profession of a Poet?</label>
+                  </div>
+                  <div class="form-group" id="form-cats">
+                    <label class="radio-inline"><input type="radio" name="optradio" value="classic" checked> Classic?</label>
+                    <label class="radio-inline"><input type="radio" name="optradio" value="romantic"> Romantic?</label>
+                    <label class="radio-inline"><input type="radio" name="optradio" value="cats"> Cats?</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+
+            <h1 class="matches">Your poetic match is!</h1>
+
+            <div id="shakespear" class="matches">
+              <img src="img/shake.jpg" alt="">
+            </div>
+            <div id="dickens" class="matches">
+              <img src="img/dickens.jpg" alt="">
+            </div>
+            <div id="lewis" class="matches">
+              <img src="img/lewis.jpg" alt="">
+            </div>
+            <div id="emily" class="matches">
+              <img src="img/emily.jpeg" alt="">
+            </div>
+
             </form>
             <h2 id="result"></h2>
 
