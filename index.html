@@ -13,6 +13,73 @@
     <title>track-suggester</title>
   </head>
   <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Find the track for you!"</h1>
+          <h2>Just a few quick questions and your likely match will be suggested.<h3>
+            <form id="langTracks">
 
+              <!-- <div class="form-group">
+                <label for="form-javaInput">Java</label>
+                <input type="text" class="form-control" id="form-javeInput" placeholder="length of side one">
+              </div>
+              <div class="form-group">
+                <label for="form-rubyInput">Ruby</label>
+                <input type="text" class="form-control" id="form-rubyInput" placeholder="length of side two">
+              </div>
+              <div class="form-group">
+                <label for="form-phpInput">PHP</label>
+                <input type="text" class="form-control" id="form-phpInput" placeholder="length of side three">
+              </div> -->
+              <div id="gate-keeper" class="modal" tabindex="-1" role="dialog">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Please verify you live in Portland or Seattle</h5>
+                          </div>
+                          <div class="modal-body">
+
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="location">
+                              <label class="form-check-label" for="exampleCheck1">I live in a city near where Epicodus is located and can attend class in person, daily.</label>
+                            </div>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button id="locate-submit /*age-submit*/" type="button" class="btn btn-primary">Verify location</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                      <form id="user-data">
+                        <div class="col-md-6">
+                          <h1>Find your fit for a language track!</h1>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="form-hats">
+                            <label class="form-check-label" for="exampleCheck1">Do you like funny hats?</label>
+                          </div>
+
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="form-poet">
+                            <label class="form-check-label" for="exampleCheck1">Do you consider your life a long string of events that relate to the profession of a Poet?</label>
+                          </div>
+                          <div class="form-group" id="form-cats">
+                            <label class="radio-inline"><input type="radio" name="optradio" value="classic" checked> Classic?</label>
+                            <label class="radio-inline"><input type="radio" name="optradio" value="romantic"> Romantic?</label>
+                            <label class="radio-inline"><input type="radio" name="optradio" value="cats"> Cats?</label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+
+              <button type="submit" class="btn btn-primary">Calculate</button>
+            </form>
+            <h2 id="result"></h2>
+
+
+      </div>
+    </div>  
   </body>
 </html>
