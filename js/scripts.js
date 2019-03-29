@@ -13,7 +13,7 @@ if (java){
 } else if (rubyInput === "classic") {
  $("#emily").fadeIn();
 } else (
-  <p>Start with ANY language and go from there.<p>
+  <p>Start with ANY language offered and go from there.<p>
 )
 
 
