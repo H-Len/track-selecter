@@ -17,14 +17,14 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Find the track for you!"</h1>
-        <h2>Just a few quick questions and your likely match will be suggested.<h3>
+        <h3>Just a few quick questions and your likely match will be suggested.</h3>
 <!--
           <p>First, please introduce yourself so I know who I'm making the suggestion for.</p>
           <label for="form-nameInput">The name</label>
           <input type="text" class="form-control" id="form-yourName" placeholder="What is the name of the person for whom I'll be making the suggestion?">
 --->
 
-          <form id="langTracks">
+          <!-- <form id="langTracks"> -->
             <div id="gate-keeper" class="modal" tabindex="-1" role="dialog">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -38,15 +38,15 @@
                       <label class="form-check-label" for="exampleCheck1">I will be able to attend class in person.</label>
                     </div>
                   </div>
+
                   <div class="modal-footer">
                     <button id="proximity-submit" type="button" class="btn btn-primary">verify location feasibility</button>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="row justify-content-md-center">
-
-
               <form id="user-data">
                 <div class="col-md-6">
                   <h1>Find your best fit for a language track today!</h1>
@@ -64,20 +64,20 @@
                     <input type="checkbox" class="form-check-input" id="form-ruby">
                     <label class="form-check-label" for="exampleCheck1">Are you most interested in startups and smaller companies?</label>
                   </div>
-
-                  <!-- <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="form-ruby">
-                  <div class="form-group" id="form-ruby">
-                    <label class="radio-inline"><input type="radio" name="optradio" value="largeOrg" checked> Classic?</label>
-                    <label class="radio-inline"><input type="radio" name="optradio" value="security"> Emphasis on security?</label>
-                    <label class="radio-inline"><input type="radio" name="optradio" value="accountInfo">Creating accounts?</label>
-                    /label>
-                  </div> -->
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
+                  <div>
+                    <p>Does one of the following work settings interest you?</p>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="form-ruby">
+                      <div class="form-group" id="form-ruby">
+                        <label class="radio-inline"><input type="radio" name="optradio" value="largeOrg" checked>Remote</label>
+                        <label class="radio-inline"><input type="radio" name="optradio" value="security"> Working at HQ?</label>
+                        <label class="radio-inline"><input type="radio" name="optradio" value="accountInfo">Flexible hours?</label>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+        </div>
           <h2 id="result"></h2>
             <h1 class="matches">Your matching track is:</h1>
 
@@ -95,7 +95,6 @@
             </div>
 
 
-      </div>
     </div>
   </body>
 </html>
