@@ -20,13 +20,15 @@ _This application benefits from a user being honest. If you don't want to work i
 
 ## Link to GitHub Pages
 
-_<a href="https://github.com/H-Len/track-selecter.git">Link to track selecter</a>_
+_<a href="https://github.com/H-Len/track-selecter.git">Link to track-selecter</a>_
 
 ## Known Bugs
 
 _results continue to appear on page unless either all results have appeared or the page is refreshed. To work around this until the bugs are fixed, a "Refresh" button is present next to the "Submit" button._
 
 _All possible results flash on page as it loading_
+
+_Radio dials have a checkbox at the start of the line_
 
 ## Support and contact details
 

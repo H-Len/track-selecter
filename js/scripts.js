@@ -5,7 +5,7 @@ $(document).ready(function() {
       var javaInput = $('#form-java').is(":checked");
       var phpInput = $("#form-php").is(":checked");
       var rubyInput = $("#form-ruby").is(":checked");
-      var thoughInput = $('#form-cats input:radio:checked').val();
+      var thoughInput = $('#form-selectOne input:radio:checked').val();
       // $("output.matches").text(result);
       // $(".matches").hide();
 
