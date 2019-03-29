@@ -6,6 +6,7 @@ $(document).ready(function() {
       var phpInput = $("#form-php").is(":checked");
       var rubyInput = $("#form-ruby").is(":checked");
       var thoughInput = $('#form-cats input:radio:checked').val();
+      $("output#user-data").text(result);
       // $(".matches").hide();
 
     if (javaInput){

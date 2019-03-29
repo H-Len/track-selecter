@@ -24,7 +24,7 @@ _<a href="https://github.com/H-Len/track-selecter.git">Link to track selecter</a
 
 ## Known Bugs
 
-_No known bugs at this time_
+_results concatanate if page is not refreshed. need to edit so that results are not combined on the page_
 
 ## Support and contact details
 
