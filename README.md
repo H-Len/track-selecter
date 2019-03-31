@@ -20,7 +20,7 @@ _This application benefits from a user being honest. If you don't want to work i
 
 ## Link to GitHub Pages
 
-_<a href="https://github.com/H-Len/track-selecter.git">Link to track-selecter</a>_
+_<a href="https://h-Len.github.io/track-selecter">Link to track-selecter</a>_
 
 ## Known Bugs
 
